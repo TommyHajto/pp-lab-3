@@ -1,13 +1,12 @@
 
-import geometry.Rectangle;
+import geometry.Square;
 
 public class Main {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(4.0, 3.0);
+        Square square = new Square(5.0);
         
-        System.out.println("Length: " + rectangle.getLength());
-        System.out.println("Width: " + rectangle.getWidth());
-        System.out.println("Area: " + rectangle.calculateArea());
-        System.out.println("Perimeter: " + rectangle.calculatePerimeter());
+        System.out.println("Side length: " + square.getLength()); // Ponieważ kwadrat ma taką samą długość boku, można uzyskać długość boku z dowolnego boku lub wysokości
+        System.out.println("Area: " + square.calculateArea());
+        System.out.println("Perimeter: " + square.calculatePerimeter());
     }
 }
