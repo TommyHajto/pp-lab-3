@@ -1,3 +1,6 @@
+import geometry.Circle;
+import geometry.Point;
+
 public class Main {
     public static void main(String[] args) {
         Point center = new Point(1.0, 2.0);

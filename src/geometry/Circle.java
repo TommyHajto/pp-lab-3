@@ -1,3 +1,5 @@
+package geometry;
+
 public class Circle {
     private Point center;
     private double radius;
